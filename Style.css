@@ -1,0 +1,95 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@400;600&display=swap');
+
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #01011c;
+  color: #2c3e50;
+  padding: 20px;
+  line-height: 1.6;
+  background-image: url('D:\Documents\Desktop\NEEHA\portfilo\background image\blue.jpg'); /* Add your image path here */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* My Self Section */
+.my-self {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.my-title h1 {
+  font-size: 32px;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.description p {
+  font-size: 16px;
+  color: #555;
+  max-width: 600px;
+}
+
+/* Profile Picture */
+.profile-picture-container {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #2c3e50;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Section General */
+section {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #3498db;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Skills Section */
+.skills-names {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.skills-name-containers {
+  display: flex;
+  align
